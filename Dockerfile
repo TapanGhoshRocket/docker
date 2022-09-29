@@ -21,5 +21,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 ENV PATH=$PATH:"/app/bin/x64/Debug/net6.0/clidriver/lib"
-
-ENTRYPOINT ["./runImage.sh"]
+ENV LD_LIBRARY_PATH="/app/clidriver/lib"
