@@ -40,7 +40,7 @@ cmd.CommandText = "CREATE TABLE EMPBOOL1 (" +
                   "  PRIMARY KEY(ID))";
 cmd.ExecuteNonQuery();
 Console.WriteLine("\n   Table EMPBOOL1 creation Done\n");
-Console.Read();
+Console.ReadKey();
 
 // Insert some rows in the table 'EMPBOOL1'
 Console.WriteLine(
@@ -59,7 +59,7 @@ cmd.ExecuteNonQuery();
 
 
 Console.WriteLine("   Table EMPBOOL1 insertaion Done\n");
-Console.Read();
+Console.ReadKey();
 
 // Select some rows in the table 'EMPBOOL1'
 Console.WriteLine("  SELECT id, ismgr, name, job \n" +
