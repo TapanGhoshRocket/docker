@@ -56,7 +56,9 @@ cmd.CommandText = "INSERT INTO EMPBOOL1(id, ismgr, name, job)" +
 Console.WriteLine();
 cmd.ExecuteNonQuery();
 
+
 Console.WriteLine("   Table EMPBOOL1 insertaion Done\n");
+Console.Read();
 
 // Select some rows in the table 'EMPBOOL1'
 Console.WriteLine("  SELECT id, ismgr, name, job \n" +
