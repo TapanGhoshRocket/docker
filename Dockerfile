@@ -21,5 +21,5 @@ Env PATH=$PATH:"/app/bin/x64/Debug/net6.0/clidriver/bin:/app/clidriver/lib/:/app
 #ENTRYPOINT ["dotnet", "WindowsNET6App.dll"]
 #ENTRYPOINT [ "dotnet" ]
 #CMD [ "WindowsNET6App.dll" ]
-CMD ["/bin/bash"]
+CMD tail -f /dev/null
 
