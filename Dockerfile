@@ -19,4 +19,5 @@ COPY --from=publish /app/publish .
 ENV PATH=$PATH:"/app/bin/x64/Debug/net6.0/clidriver/lib"
 Env PATH=$PATH:"/app/bin/x64/Debug/net6.0/clidriver/bin:/app/clidriver/lib/:/app/bin/x64/Debug/net6.0/clidriver/lib"
 #ENTRYPOINT ["dotnet", "WindowsNET6App.dll"]
-
+ENTRYPOINT [ "dotnet" ]
+CMD [ "WindowsNET6App.dll" ]
