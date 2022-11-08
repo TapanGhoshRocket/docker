@@ -20,6 +20,7 @@ try
     conn.Close();
     Console.WriteLine("Connection Close");
     conn.Open();
+    Console.ReadKey();
     Console.WriteLine("Connection Open");
     conn.Close();
     Console.WriteLine("Connection Close");
