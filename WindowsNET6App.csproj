@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
-    <PackageReference Include="Net.IBM.Data.Db2-lnx" Version="6.0.0.200" />
+    <PackageReference Include="Net.IBM.Data.Db2-lnx" Version="6.0.0.400-alpha" />
   </ItemGroup>
 
 </Project>
