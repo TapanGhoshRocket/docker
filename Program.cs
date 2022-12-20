@@ -27,7 +27,7 @@ try
     conn.Open();
     Console.WriteLine("Connection Open");
 
-
+    Console.WriteLine(System.Reflection.Assembly.LoadFrom(@"IBM.Data.Db2.dll").GetName().Version.ToString());
 
     // Create a table 'EMPBOOL1' in the SAMPLE database      
     Console.WriteLine("  CREATE TABLE EMPBOOL1 WITH ATTRIBUTES:\n" +
