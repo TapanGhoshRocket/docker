@@ -19,7 +19,7 @@ con3.Open();
 Console.WriteLine("con3 Connection Open");
 
 con3.Close();
-Console.WriteLine("con1 Connection Close");
+Console.WriteLine("con3 Connection Close");
 
 con4.Open();
 Console.WriteLine("con4 Connection Close");
@@ -160,5 +160,6 @@ Console.WriteLine("   Table EMPBOOL1 Deletetion Done\n");
 // Disconnect from the database
 Console.WriteLine("\n  Disconnect from the database");
 con1.Close();
-Console.WriteLine("\n  con1 closed");
+Console.WriteLine("\n  Con1 connection closed");
+Console.WriteLine("\n  Program Finished");
 
