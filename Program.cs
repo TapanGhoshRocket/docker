@@ -158,13 +158,15 @@ reader.Close();
 // Delete the table 'EMPBOOL1'
 cmd.CommandText = "DROP TABLE EMPBOOL1\n";
 cmd.ExecuteNonQuery();
-Console.WriteLine("   Table EMPBOOL1 Deletetion Done\n");
+Console.WriteLine("\n  Table EMPBOOL1 Deletetion Done\n");
 
-// Disconnect from the database
-Console.WriteLine("Disconnect from the database");
-
-con2.Close();
-Console.WriteLine("Con2 connection closed");
 
 Console.WriteLine("\n  Program Finished");
+
+// Disconnect from the database
+/*Console.WriteLine("Disconnect from the database");
+
+con2.Close();
+Console.WriteLine("Con2 connection closed");*/
+
 
