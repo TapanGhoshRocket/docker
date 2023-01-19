@@ -161,5 +161,9 @@ Console.WriteLine("   Table EMPBOOL1 Deletetion Done\n");
 Console.WriteLine("\n  Disconnect from the database");
 con1.Close();
 Console.WriteLine("\n  Con1 connection closed");
+con2.Close();
+Console.WriteLine("\n  Con2 connection closed");
+con4.Close();
+Console.WriteLine("\n  Con4 connection closed");
 Console.WriteLine("\n  Program Finished");
 
