@@ -15,10 +15,13 @@ Console.WriteLine(con1.InternalOperation1());
 con1.Close();
 Console.WriteLine("Con1 connection closed");
 
+//2nd modification
+Console.ReadKey();
 con2.Open();
 Console.WriteLine("con2 Connection Open");
 
-Console.ReadKey();
+//1st modification
+//Console.ReadKey();
 
 /*con3.Open();
 Console.WriteLine("con3 Connection Open");
