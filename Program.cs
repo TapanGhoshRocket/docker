@@ -18,6 +18,8 @@ Console.WriteLine("Con1 connection closed");
 con2.Open();
 Console.WriteLine("con2 Connection Open");
 
+Console.ReadKey();
+
 /*con3.Open();
 Console.WriteLine("con3 Connection Open");
 
