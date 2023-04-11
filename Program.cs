@@ -2,7 +2,7 @@ using IBM.Data.Db2;
 
 Console.WriteLine("Using DB2 .NET provider");
 
-string connString = "Database=sample;UserID=newton;Server=Waldevdbclnxtst06.dev.rocketsoftware.com:60000;pwd=A2m8test;";
+string connString = "Database=sample;UserID=newton;Server=Waldevdbclnxtst06.dev.rocketsoftware.com:60000;pwd=A2m8test;pooling=false";
 //string connString = "Database=sample;UserID=newton;Server=Waldevdbclnxtst06.dev.rocketsoftware.com:60000;pwd=A2m8test;Max Pool Size=3";
 
 #region Instantiating 7 connection objects
