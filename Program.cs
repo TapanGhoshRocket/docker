@@ -2,7 +2,7 @@ using IBM.Data.Db2;
 
 Console.WriteLine("Using DB2 .NET provider");
 
-string connString = "Database=sample;UserID=newton;Server=Waldevdbclnxtst06.dev.rocketsoftware.com:60000;pwd=A2m8test;";
+string connString = "Database=xxxx;UserID=xxxxx;Server=Waldevdbclnxtst06.dev.rocketsoftware.com:60000;pwd=xxxx;";
 
 #region Instantiating 7 connection objects
 DB2Connection con1 = new DB2Connection(connString);
