@@ -2,8 +2,14 @@ using IBM.Data.Db2;
 
 Console.WriteLine("Using DB2 .NET provider");
 
-//string connString = "Database=xxxx;UserID=xxxxx;Server=Waldevdbclnxtst06.dev.rocketsoftware.com:60000;pwd=xxxx;";
-string connString = "uid=ztf38289;pwd=0Uq0qmLFnKv4m8mo;server=b70af05b-76e4-4bca-a1f5-23dbb4c6a74e.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud:32716;database=bludb;Security=ssl";
+string uid = Environment.GetEnvironmentVariable("uid");
+string pwd = Environment.GetEnvironmentVariable("pwd");
+string server = Environment.GetEnvironmentVariable("server");
+string db = Environment.GetEnvironmentVariable("db");
+string security = Environment.GetEnvironmentVariable("security");
+
+//Connection String
+string connString = "uid=" + uid + ";pwd=" + pwd + ";server=" + server + ";database=" + db + ";Security=" + security;
 
 #region Instantiating 7 connection objects
 DB2Connection con1 = new DB2Connection(connString);
